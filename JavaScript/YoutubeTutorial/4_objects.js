@@ -42,7 +42,6 @@ result = lookup[val];
 // Testing if object has specific property
 ourDog.hasOwnProperty("bark");
 
-
 // Manipulation complex objects aka. JSON
 
 
