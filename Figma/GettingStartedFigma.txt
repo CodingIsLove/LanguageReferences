@@ -1,0 +1,35 @@
+# Figma
+
+
+
+Häufig in Komponenten verwandelt werden:
+
+- Ui components
+- Company logos and brand assets
+- Icons
+- Device mockups
+- Platform OS components (Android, IOS, Linux, etc)
+- Cursor
+- Redlining and annotation components
+
+
+
+If you publish your components, it can act as a librarie
+
+
+
+### When to start creating components for design systems
+
+- start early enough
+- Build atomic components
+
+### Handle theming with components
+
+
+
+For further informations look into the assets directory. The images should be self explanatory.
+
+
+
+
+
