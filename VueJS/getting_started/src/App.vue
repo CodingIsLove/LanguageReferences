@@ -12,6 +12,11 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  data():
+    return{
+      msg:"Hello Hello "
+    }
   }
 }
 </script>
