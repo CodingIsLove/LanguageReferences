@@ -157,6 +157,38 @@ With emit, we could also send data! fucking sweet.
 
 
 ## 10. Forms
+
+Used to collect user input.
+Here we want to implement a two-way databinding! This can be realized with **v-model**
+We can use **modifiers** to check the typecasting! To check if everything is working just use the chrome plugin => There you should see the direct update.
+
+- You can mark fields as **required** directly, but still you should use formvalidation later.
+
+Fucking sweet error handling:
+
+```js
+  onSubmit() {
+      if(this.name && this.review && this.rating) {
+        let productReview = {
+          name: this.name,
+          review: this.review,
+          rating: this.rating
+        }
+        this.$emit('review-submitted', productReview)
+        this.name = null
+        this.review = null
+        this.rating = null
+      } else {
+        if(!this.name) this.errors.push("Name required.")
+        if(!this.review) this.errors.push("Review required.")
+        if(!this.rating) this.errors.push("Rating required.")
+      }
+    }
+```
+
+
+
+
 ## 11. Tabs
 
 
