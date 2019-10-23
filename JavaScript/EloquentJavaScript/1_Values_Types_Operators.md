@@ -40,7 +40,6 @@
         - example: console.log(null||"user")  -> user
         - console.log("Agnes"|| user) -> Agnes
     - You can use this for fallback versions.
-    - The && operator works exactly the other way around (if the first argument is true, it will automatically return the second)*[]: 
-    
+    - The && operator works exactly the other way around (if the first argument is true, it will automatically return the second).
     
     
