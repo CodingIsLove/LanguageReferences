@@ -1,11 +1,9 @@
 
-
 /*
 Why Prototypes?
 If you add the functions via prototypes, then you will not see them in the Object itself! It is much cleaner.
 It is stored in the proto properties
  */
-
 
 // Constructor
 function Book(title,author,year) {
@@ -14,9 +12,6 @@ function Book(title,author,year) {
     this.year = year;
 
 }
-
-// getSummary
-
 
 // Constructor
 function Book(title,author,year) {
